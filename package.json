@@ -1,0 +1,58 @@
+{
+    "name": "beehive-cluster",
+    "version": "1.0.0",
+    "description": "Beehive coordinates generator for map scanning",
+    "main": "./lib/beehiveCluster.js",
+    "scripts": {
+        "test": "./node_modules/.bin/mocha -R spec",
+        "xo": "./node_modules/.bin/xo",
+        "shx": "./node_modules/.bin/shx",
+        "travis": "npm run xo"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/CommonRaven/node-beehive-cluster.git"
+    },
+    "keywords": [
+        "coordinates",
+        "beehive",
+        "bee-hive",
+        "bee",
+        "hive",
+        "cluster",
+        "calculate",
+        "calculation",
+        "lat",
+        "lon",
+        "latitude",
+        "longitude",
+        "map",
+        "maps",
+        "generate",
+        "generator",
+        "scan",
+        "scanning"
+    ],
+    "author": "CommonRaven (Nitai J. Perez) <nitai.perez@gmail.com> (https://github.com/CommonRaven)",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/CommonRaven/node-beehive-cluster/issues"
+    },
+    "homepage": "https://github.com/CommonRaven/node-beehive-cluster#readme",
+    "dependencies": {},
+    "devDependencies": {
+        "chai": "latest",
+        "mocha": "latest",
+        "shx": "latest",
+        "xo": "latest"
+    },
+    "xo": {
+        "space": 4,
+        "rules": {
+            "semi": [
+                2,
+                "never"
+            ]
+        }
+    }
+}
